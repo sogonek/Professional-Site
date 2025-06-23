@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Favorites</title>
+    <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: AliceBlue;
+      color: navy;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      text-align: center;
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: navy;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .dropdown {
+      display: inline-block;
+      position: relative;
+    }
+
+    .dropbtn {
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 10px;
+      cursor: pointer;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: white;
+      min-width: 200px;
+      box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+      z-index: 1;
+      text-align: left;
+    }
+
+    .dropdown-content a {
+      padding: 10px 15px;
+      text-decoration: none;
+      display: block;
+      color: navy;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #e6f0ff;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+<body id="top">
+
+  <header>
+    <nav>
+	  <a href="index.html" target="_blank">Home</a>
+      <a href="about.html" target="_blank">About Me</a> |
+      <a href="favorites.html" target="_blank">My Favorite Things</a> |
+
+      <div class="dropdown">
+        <span class="dropbtn">Award Winning Books ▾</span>
+        <div class="dropdown-content">
+          <a href="Caldecott.html" target="_blank">Caldecott Medal</a>
+          <a href="Newberry.html" target="_blank">Newberry Medal</a>
+          <a href="Coretta.html" target="_blank">Coretta Scott King Award</a>
+          <a href="Geisel.html" target="_blank">Geisel Award</a>
+          <a href="Belpre.html" target="_blank">Pura Belpre Award</a>
+      </div> |
+
+      <div class="dropdown">
+        <span class="dropbtn">Literacy Types ▾</span>
+        <div class="dropdown-content">
+          <a href="info-literacy.html" target="_blank">Information Literacy</a>
+          <a href="technology-literacy.html" target="_blank">Technology Literacy</a>
+          <a href="media-literacy.html" target="_blank">Media Literacy</a>
+        </div>
+      </div> |
+      <a href="blog.html" target="_blank">Research & Education</a> |
+    </nav>
+  </header>
+
+  <h2>Some of My Favorite Library Resources</h2>
+<figure>
+<img src="images/book heart.jpg" alt="My Favorites" style="width:150px; title:My Favorites; height:150px; border-radius: 50%; margin-top: 20px;">
+  <figcaption>My Favorites</figcaption>
+  </figure>
+  <ul>
+  <p>
+    <li><strong>Library of Congress Catalog</strong><br>
+      <a href="https://catalog.loc.gov" target="_blank">https://catalog.loc.gov</a><br>
+      Explore the vast collection of the U.S. Library of Congress.
+    </li>
+	</p>
+	<p>
+    <li><strong>Collection Development Resources</strong><br>
+      <a href="https://www.sldirectory.com/libsf/resf/coldev2.html" target="_blank">SLDirectory - Collection Development</a><br>
+      A helpful guide for librarians building strong collections.
+    </li>
+	</p>
+    <li><strong>Dewey Decimal Guide</strong><br>
+      <a href="https://www.library.illinois.edu/infosci/research/guides/dewey/" target="_blank">Dewey Decimal Guide</a><br>
+      Understand how to organize books using this classification system.
+    </li>
+	<p>
+    <li><strong>READ Design Studio</strong><br>
+      <a href="https://alastore.ala.org/read-design-studio" target="_blank">ALA READ Design Studio</a><br>
+      Create custom posters and graphics to promote reading.
+    </li>
+	</p>
+  </ul>
+
+  <footer style="margin-top: 40px;">
+    &copy; 2025 Shawna Ogonek. All rights reserved. Curated with love for libraries.
+  </footer>
+
+</body>
+</html>

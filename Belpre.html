@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Belpré</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: AliceBlue;
+      color: navy;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      text-align: center;
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: navy;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .dropdown {
+      display: inline-block;
+      position: relative;
+    }
+
+    .dropbtn {
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 10px;
+      cursor: pointer;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: white;
+      min-width: 200px;
+      box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+      z-index: 1;
+      text-align: left;
+    }
+
+    .dropdown-content a {
+      padding: 10px 15px;
+      text-decoration: none;
+      display: block;
+      color: navy;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #e6f0ff;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    ul {
+      list-style-type: disc;
+      text-align: left;
+      display: inline-block;
+      margin-top: 20px;
+      max-width: 600px;
+    }
+
+    li {
+      margin-bottom: 15px;
+    }
+
+    ul ul {
+      margin-left: 20px;
+      list-style-type: circle;
+    }
+  </style>
+</head>
+<body id="top">
+
+  <header>
+    <nav>
+	  <a href="index.html" target="_blank">Home</a>
+      <a href="about.html" target="_blank">About Me</a> |
+      <a href="favorites.html" target="_blank">My Favorite Things</a> |
+
+      <div class="dropdown">
+        <span class="dropbtn">Award Winning Books ▾</span>
+        <div class="dropdown-content">
+          <a href="Caldecott.html" target="_blank">Caldecott Medal</a>
+          <a href="Newberry.html" target="_blank">Newberry Medal</a>
+          <a href="Coretta.html" target="_blank">Coretta Scott King Award</a>
+          <a href="Geisel.html" target="_blank">Geisel Award</a>
+          <a href="Belpre.html" target="_blank">Pura Belpre Award</a>
+        </div>
+      </div> |
+
+      <div class="dropdown">
+        <span class="dropbtn">Literacy Types ▾</span>
+        <div class="dropdown-content">
+          <a href="info-literacy.html" target="_blank">Information Literacy</a>
+          <a href="technology-literacy.html" target="_blank">Technology Literacy</a>
+          <a href="media-literacy.html" target="_blank">Media Literacy</a>
+        </div>
+      </div> |
+     <a href="blog.html" target="_blank">Research in Education</a> |
+    </nav>
+  </header>
+
+  <h2>Recent Belpré Award Winners</h2>
+
+  <div class="table-container" role="main">
+    <table border="1" width="100%">
+      <tr style="height: 10%;">
+        <td colspan="2" align="center" style="font-size: 2em;">
+          Belpré Award
+        </td>
+      </tr>
+      <tr style="height: 80%;">
+        <td class="sidebar" valign="top">
+          <h2>About the Award</h2>
+          <p>The Pura Belpré Award honors <strong>Latino/Latina authors</strong> <i>and</i> <strong>illustrators</strong> whose work best portrays the Latino cultural experience.</p>
+        </td>
+        <td class="main-content" valign="top">
+          <h2>Last 5 Award Winners</h2>
+          <table class="award-table" role="table">
+            <thead>
+              <tr>
+                <th colspan="3" valign="middle">Belpré Award Winners</th>
+              </tr>
+              <tr>
+                <th width="20%" valign="middle">Year</th>
+                <th width="50%" valign="middle">Title</th>
+                <th width="30%" valign="middle">Author/Illustrator</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td valign="middle">2025</td>
+                <td valign="middle">La Línea</td>
+                <td valign="middle">Ann Jaramillo / Glenda León</td>
+              </tr>
+              <tr>
+                <td valign="middle">2024</td>
+                <td valign="middle">¡Vamos! Let’s Go to the Market</td>
+                <td valign="middle">Raúl Gonzalez / Rafael López</td>
+              </tr>
+              <tr>
+                <td valign="middle">2023</td>
+                <td valign="middle">¡Vamos! Let’s Go Eat</td>
+                <td valign="middle">Raúl Gonzalez / Rafael López</td>
+              </tr>
+              <tr>
+                <td valign="middle">2022</td>
+                <td valign="middle">Mango, Abuela, and Me</td>
+                <td valign="middle">Meg Medina / Angela Dominguez</td>
+              </tr>
+              <tr>
+                <td valign="middle">2021</td>
+                <td valign="middle">Islandborn</td>
+                <td valign="middle">Junot Díaz / Daniel José Older</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr class="footer-row">
+                <td colspan="3" valign="middle"><em>Source: American Library Association (ALA)</em></td>
+              </tr>
+            </tfoot>
+          </table>
+        </td>
+      </tr>
+      <tr style="height: 10%;">
+        <td colspan="2" valign="middle">
+          <p>Belpré Award</p>
+        </td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>
